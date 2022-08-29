@@ -1,4 +1,4 @@
-import exampleFunction from './../src/exampleFunction.js';
+import exampleFunction from './../src/counter.js';
 
 describe('test message', () => {
   test('return string', () => {
