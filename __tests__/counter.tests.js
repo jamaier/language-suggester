@@ -1,7 +1,10 @@
-import exampleFunction from './../src/counter.js';
+import { counter } from '../src/js/counter.js';
 
-describe('test message', () => {
-  test('return string', () => {
-    expect(exampleFunction()).toEqual(`hi, i'm a test!'`);
+describe('counter', () => {
+
+  test('return false when input is not a number', () => {
+    const number = "string";
+    const result = counter(number);
+    expect(result).toEqual(false);
   });
 });

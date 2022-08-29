@@ -1,6 +1,5 @@
-
-const exampleFunction = () => {
-  return `hi, i'm a test!'`;
-};
-
-export default exampleFunction;
+export const counter = (number) => {
+  if(isNaN(number)) {
+    return false;
+  }
+}
