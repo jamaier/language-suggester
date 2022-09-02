@@ -15,4 +15,4 @@ test('should return output equal to input.', () => {
   expect(result).toEqual(10);
 })
 
-test('should return the amount of quarters')
+// test('should return the amount of quarters')
