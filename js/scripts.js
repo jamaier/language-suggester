@@ -11,5 +11,7 @@ window.onload = function() {
   const submit = document.getElementById("submit");
   const result = document.getElementById("result");
 
-
+  submit.addEventListener("click", function(event) {
+    event.preventDefault();
+  })
 }
