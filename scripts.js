@@ -6,7 +6,6 @@ const buildWebsites = document.querySelector('input[name="buildWebsites"]:checke
     event.preventDefault();
   })
 
-
     if (bigData === "bigData") {
         document.getElementById("python").classList.remove("hidden");
     } else {
