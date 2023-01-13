@@ -1,4 +1,4 @@
-window.onload = function() {
+window.onload = function () {
   function preventDefault(event) {
     event.preventDefault();
   }
@@ -11,7 +11,42 @@ window.onload = function() {
   const submit = document.getElementById("submit");
   const result = document.getElementById("result");
 
-  submit.addEventListener("click", function(event) {
+  submit.addEventListener("click", function (event) {
     event.preventDefault();
-  })
-}
+  });
+
+  function suggestLanguage() {
+    let language = "";
+
+    if (questionOne.value === "Desktop") {
+      if (questionTwo.value === "Data") {
+        language = "Python";
+      } else if (questionTwo.value === "Games") {
+        language = "JavaScript";
+      } else {
+        language = "Swift";
+      }
+    } else if (questionOne.value === "Web") {
+    }
+    if (questionOne.value === "Desktop") {
+      if (questionTwo.value === "Data") {
+        language = "Python";
+      } else if (questionTwo.value === "Games") {
+        language = "JavaScript";
+      } else {
+        language = "Swift";
+      }
+    } else if (questionOne.value === "Web") {
+    }
+    if (questionOne.value === "Desktop") {
+      if (questionTwo.value === "Data") {
+        language = "Python";
+      } else if (questionTwo.value === "Games") {
+        language = "JavaScript";
+      } else {
+        language = "Swift";
+      }
+    } else if (questionOne.value === "Web") {
+    }
+  }
+};
