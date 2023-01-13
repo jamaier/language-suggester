@@ -1,27 +1,22 @@
-window.onload = function() {
 
-const form = document.getElementsByClassName("questionOne"); //, "questionTwo", "questionThree", "questionFour", "questionFive")
-  const resultDivs = {  
-  python: document.getElementById("python"),
-  javascript: document.getElementById("javascript"),
-  swift: document.getElementById("swift"),
-  reasonWhy: document.getElementById("reasonWhy"),
-  rather: document.getElementById("rather"),
-  };
+  
+  forms.forEach((form) => {
+    form.addEventListener("submit", handleFormSubmit);
+  });
 
-  form.addEventListener("submit", (event) => {
-  event.preventDefault();
+  function handleFormSubmit(event) {
+    event.preventDefault();
 
   const bigData = document.getElementById("data").checked === true;
-  const websites = document.getElementById("websites").checked === true;
+  //const website = document.getElementById("websites").checked === true;
 
-  if (bigData) {
-    resultDivs.python.classList.remove("hidden");
-  } else (websites) {
-    resultDivs.javascript.classList.remove("hidden");
+    if (bigData) {
+      resultDivs.python.classList.remove("hidden");
+    } else () {
+      return document.getElementById("javascript").classList.remove("hidden")
+    }
   }
-})
-}
+
 
 
 
