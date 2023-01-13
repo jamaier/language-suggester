@@ -11,9 +11,12 @@ window.onload = function () {
   const submit = document.getElementById("submit");
   const hidden = document.getElementById("hidden");
 
-  submit.addEventListener("click", function (event) {
-    event.preventDefault();
-  });
+  questionOne.addEventListener("change", suggestLanguage);
+  questionTwo.addEventListener("change", suggestLanguage);
+  questionThree.addEventListener("change", suggestLanguage);
+  questionFour.addEventListener("change", suggestLanguage);
+  questionFive.addEventListener("change", suggestLanguage);
+  submit.addEventListener("submit", preventDefault);
 
   function suggestLanguage() {
     let language = "";
@@ -44,6 +47,9 @@ window.onload = function () {
       }
     };
   };
+
+  
+
 };
 
 
