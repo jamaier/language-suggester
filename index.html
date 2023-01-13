@@ -5,7 +5,9 @@
     <script src="js/scripts.js"></script>
     <title>programming Language Suggester</title>
   </head>
+  
   <body>
+    
     <div class="intro">
       <h1>welcome</h1>
       <p>
@@ -13,28 +15,27 @@
         for you based of the information given.
       </p>
     </div>
-    <form>
-    <div class="formOne" name="formOne">
-      <label for="questionOne"
-        >Would you prefer to work on projects for Mobile, Desktop or Web-based
-        platforms?</label
-      ><br />
-      <select name="questionOne" id="questionOne">
-        <option value="mobile">Mobile</option>
-        <option value="desktop">Desktop</option>
-        <option value="web">Web</option>
-      </select>
+    
+    <div class="containerOne">
+      <h5>Would you prefer to work on projects for Mobile or Desktop</h5><br />
+      <form id="questionOne">
+        <input type="radio" name="desktop" id="python">
+        <label for="python">Desktop</label>
+        <input type="radio" name="mobile" id="mobile">
+        <label for="mobile">Mobile</label>
+      </form>
     </div>
-    <div class="formTwo" name="formTwo">
-      <label for="questionTwo"
-        >would you rather work with big data, games or app development?</label
-      >
-      <select name="questionTwo" id="questionTwo">
-        <option value="data">Data</option>
-        <option value="games">Games</option>
-        <option value="app">App</option>
-      </select>
+    
+    <div class="containerTwo">
+      <h5>Would you prefer to work on projects for Mobile or Desktop</h5><br />
+      <form id="questionTwo">
+        <input type="radio" name="desktop" id="g">
+        <label for="g">Desktop</label>
+        <input type="radio" name="mobile" id="mobile">
+        <label for="mobile">Mobile</label>
+      </form>
     </div>
+    
     <div class="formThree" name="formThree">
       <label for="questionThree">where would you like to work from?</label>
       <select name="questionThree" id="questionThree">
@@ -43,6 +44,7 @@
         <option value="home">home</option>
       </select>
     </div>
+    
     <div class="formFour" name="formFour">
       <label for="questionFour"
         >what makes you want to learn a programming language?</label
@@ -55,6 +57,7 @@
         </option>
       </select>
     </div>
+    
     <div class="formFive" name="formFive">
       <label for="questionFive">Just curious: Would you rather...</label>
       <select name="questionFive" id="questionFive">
@@ -66,23 +69,28 @@
         </option>
       </select>
     </div>
-    </form>
+    
     <div class="submitButton">
       <h3>Submit your form to get your result</h3>
       <button type="submit">Submit</button>
     </div>
+    
     <div id="python" class="hidden">
       <p>Python would be a solid choice!</p>
     </div>
+    
     <div id="javascript" class="hidden">
       <p>JavaScript seems right for you!</p>
     </div>
+    
     <div id="swift" class="hidden">
       <p>Swift is right up you alley!</p>
     </div>
+    
     <div id="reasonWhy" class="hidden">
       <p>Thats a good reason!</p>
     </div>
+    
     <div id="rather" class="hidden">
       <p>Either way that's wild...</p>
     </div>

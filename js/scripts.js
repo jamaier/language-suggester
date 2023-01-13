@@ -8,10 +8,10 @@ function hideResults() {
 
 
 const questionOne = document.getElementById("questionOne");
-const questionTwo = document.getElementById("questionTwo");
-const questionThree = document.getElementById("questionThree");
-const questionFour = document.getElementById("questionFour");
-const questionFive = document.getElementById("questionFive");
+// const questionTwo = document.getElementById("questionTwo");
+// const questionThree = document.getElementById("questionThree");
+// const questionFour = document.getElementById("questionFour");
+// const questionFive = document.getElementById("questionFive");
 
 
 window.onload = function () {
@@ -22,10 +22,10 @@ window.onload = function () {
     const form = document.querySelector("form");
 
     questionOne.addEventListener("change", suggestLanguage);
-    questionTwo.addEventListener("change", suggestLanguage);
-    questionThree.addEventListener("change", suggestLanguage);
-    questionFour.addEventListener("change", suggestLanguage);
-    questionFive.addEventListener("change", suggestLanguage);
+    // questionTwo.addEventListener("change", suggestLanguage);
+    // questionThree.addEventListener("change", suggestLanguage);
+    // questionFour.addEventListener("change", suggestLanguage);
+    // questionFive.addEventListener("change", suggestLanguage);
     form.addEventListener("submit", preventDefault);
 
     function suggestLanguage() {
@@ -55,7 +55,7 @@ window.onload = function () {
         } else {
           language = "Python";
         }
-      }
-    }
-  }
-}
+      };
+    };
+  };
+};

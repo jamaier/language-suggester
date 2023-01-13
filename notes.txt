@@ -23,9 +23,9 @@ mobile = swift
 desktop = python
 web = JavaScript
 
-would you rather work with big data, games or app development?
+would you rather work with big data, **games** or app development?
 data = python
-games = JavaScript
+games = JavaScript**
 app = swift
 
 where would you like to work from?
