@@ -15,3 +15,32 @@ Primary applications (Via Google) -
 *Rust - 'Rust is a statically-typed programming language designed for performance and safety, especially safe concurrency and memory management. Its syntax is similar to that of C++. It is an open-source project developed originally at Mozilla Research.;
 
 *Swift (Mobie - Ios/Mac) - 'Swift is a robust and intuitive programming language created by Apple for building apps for iOS, Mac, Apple TV, and Apple Watch. It's designed to give developers more freedom than ever. Swift is easy to use and open source, so anyone with an idea can create something incredible.'
+
+hopeful layout -
+
+Would you prefer to work on projects for Mobile, Desktop or Web based platforms?
+mobile = swift 
+desktop = python
+web = JavaScript
+
+would you rather work with big data, games or app development?
+data = python
+games = JavaScript
+app = swift
+
+where would you like to work from?
+Anywhere I want = python
+headquarters = swift
+home = JavaScript
+
+what makes you want to learn?
+Change of career = JavaScript
+challenge myselft = python
+I wanna make it big! = swift
+
+goal is to combine and find most common answer and provide that.
+
+would you rather...
+Fight a bear in a bare bones boxing bananza??
+Stub your toe on every door jamb and stair you step on/through?
+ result for both = 'Huh.. Interesting...'
