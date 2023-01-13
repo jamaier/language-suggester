@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <link rel="stylesheet" href="css/styles.css">
-    <script src="js/scripts.js"></script>
+    <script src="scripts.js"></script>
     <title>programming Language Suggester</title>
   </head>
   
@@ -16,56 +16,47 @@
       </p>
     </div>
     
-    <div class="containerOne">
-      <h5>would you rather work with big data or build interactive websites</h5><br />
-      <form class="questionOne">
-        <input type="radio" name="bigData" id="data">
-        <label for="data">Data</label>
-        <input type="radio" name="buildWebsites" id="websites">
-        <label for="websites">Build Websites</label>
+    <div class="container">
+      <form class="formOne">
+        <h5>would you rather work with big data or build interactive websites</h5><br>
+        <label>
+          <input type="radio" name="bigData" value="python">Data</label><br>
+        <label><br>
+        <label>
+          <input type="radio" name="buildWebsites" value="javascript">Build Websites</label><br>
+
+        <h5>Would you prefer to work on projects for Mobile or Desktop</h5><br>
+        <label>
+          <input type="radio" name="desktop" value="python">desktop</label><br>
+        <label><br>
+        <label>
+          <input type="radio" name="mobile" value="swift">mobile</label><br>
+
+        <h5>where would you like to work from?</h5><br>
+          <label>
+            <input type="radio" name="office" value="swift">Office</label><br>
+          <label><br>
+          <label>
+            <input type="radio" name="home" value="javascript">Home</label><br>
+
+        <h5>what makes you want to learn?</h5><br>
+          <label>
+            <input type="radio" name="career" value="python">Change of career</label><br>
+          <label><br>
+          <label>
+            <input type="radio" name="forFun" value="javascript">Just for fun!</label><br>
+
+        <h5>Just curious: would you rather...</h5><br>
+          <label>
+            <input type="radio" name="rather" value="bear">Fight a bear in a bare bones boxing bananza??</label><br>
+          <label><br>
+          <label>
+            <input type="radio" name="rather" value="stubToe">Stub your toe on every door jamb and stair you step on/through?</label><br>
+
+        <h3>Submit your form to get your result</h3>
+        <input type="submit">
+        <input type="reset">
       </form>
-    </div>
-    
-    <div class="containerTwo">
-      <h5>Would you prefer to work on projects for Mobile or Desktop</h5><br />
-      <form class="questionTwo">
-        <input type="radio" name="desktop" id="g">
-        <label for="g">Desktop</label>
-        <input type="radio" name="mobile" id="mobile">
-        <label for="mobile">Mobile</label>
-      </form>
-    </div>
-    
-    <div class="containerThree">
-      <h5>where would you like to work from?</h5><br />
-      <form class="questionThree">
-        <input type="radio" name="office" id="office">
-        <label for="office">Office</label>
-        <input type="radio" name="home" id="home">
-        <label for="home">Home</label>
-    </div>
-    
-    <div class="containerFour">
-      <h5>what makes you want to learn?</h5><br />
-      <form class="questionFour">
-        <input type="radio" name="changeCareer" id="career">
-        <label for="career">Change of career</label>
-        <input type="radio" name="forFun" id="fun">
-        <label for="fun">Just for fun!</label>
-    </div>
-    
-    <div class="containerFive">
-      <h5>Just curious: would you rather...</h5><br />
-      <form class="questionFive">
-        <input type="radio" name="desktop" id="g">
-        <label for="g">Fight a bear in a bare bones boxing bananza??</label><br>
-        <input type="radio" name="mobile" id="mobile">
-        <label for="mobile">Stub your toe on every door jamb and stair you step on/through?</label>
-    </div>
-    
-    <div class="submitButton">
-      <h3>Submit your form to get your result</h3>
-      <button type="submit">Submit</button>
     </div>
     
     <div id="python" class="hidden">
