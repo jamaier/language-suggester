@@ -5,11 +5,11 @@ window.onload = function () {
 
   const questionOne = document.getElementById("questionOne");
   const questionTwo = document.getElementById("questionTwo");
-  const questionThree = document.ggetElementById("questionThree");
+  const questionThree = document.getElementById("questionThree");
   const questionFour = document.getElementById("questionFour");
   const questionFive = document.getElementById("questionFive");
   const submit = document.getElementById("submit");
-  const result = document.getElementById("result");
+  const hidden = document.getElementById("hidden");
 
   submit.addEventListener("click", function (event) {
     event.preventDefault();
@@ -18,35 +18,32 @@ window.onload = function () {
   function suggestLanguage() {
     let language = "";
 
-    if (questionOne.value === "Desktop") {
-      if (questionTwo.value === "Data") {
+    if (questionOne.value === "Mobile") {
+      if (questionTwo.value === "data") {
         language = "Python";
-      } else if (questionTwo.value === "Games") {
+      } else if (questionTwo.value === "games") {
         language = "JavaScript";
       } else {
         language = "Swift";
       }
-    } else if (questionOne.value === "Web") {
-    }
-    if (questionOne.value === "Desktop") {
-      if (questionTwo.value === "Data") {
+    } else if (questionOne.value === "Desktop") {
+      if (questionTwo.value === "data") {
         language = "Python";
-      } else if (questionTwo.value === "Games") {
+      } else if (questionTwo.value === "games") {
         language = "JavaScript";
       } else {
         language = "Swift";
       }
-    } else if (questionOne.value === "Web") {
-    }
-    if (questionOne.value === "Desktop") {
-      if (questionTwo.value === "Data") {
-        language = "Python";
-      } else if (questionTwo.value === "Games") {
+    } else {
+      if (questionTwo.value === "data") {
+        language = "JavaScript";
+      } else if (questionTwo.value === "games") {
         language = "JavaScript";
       } else {
-        language = "Swift";
+        language = "Python";
       }
-    } else if (questionOne.value === "Web") {
-    }
-  }
+    };
+  };
 };
+
+
