@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <link rel="stylesheet" href="css/styles.css">
-    <script src="scripts.js"></script>
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <script src="js/scripts.js"></script>
     <title>programming Language Suggester</title>
   </head>
   
@@ -16,15 +16,18 @@
       </p>
     </div>
     
-    <div class="container">
+    <div class="userInput">
       <form id="formOne">
+        <div class="container">
         <h5>would you rather work with big data or build interactive websites</h5><br>
-        <label>
+        <label class="radio">
           <input type="radio" name="questionOne" value="data">Data
         </label><br>
           <input type="radio" name="questionOne" value="websites">Build Websites
         </label><br>
-
+        </div>
+        
+        <div class="container">
         <h5>Would you prefer to work on projects for Mobile or Desktop</h5><br>
         <label class="radio">
           <input type="radio" name="questionTwo" value="desktop">desktop
@@ -32,7 +35,9 @@
         <label><br>
           <input type="radio" name="questionTwo" value="mobile">mobile
         </label><br>
-
+        </div>
+        
+        <div class="container">
         <h5>where would you like to work from?</h5><br>
           <label class="radio">
             <input type="radio" name="questionThree" value="office">Office
@@ -40,22 +45,24 @@
           <label>
             <input type="radio" name="questionThree" value="home">Home
           </label><br>
-
+        </div>
+ 
+        <div class="container">
         <h5>what makes you want to learn?</h5><br>
-          <label>
+          <label class="radio">
             <input type="radio" name="questionFour" value="career">Change of career
           </label><br>
             <input type="radio" name="questionFour" value="forFun">Just for fun!
           </label><br>
-
+        </div>
+        <div class="container">
         <h5>Just curious: would you rather...</h5><br>
-          <label>
+          <label class="radio">
             <input type="radio" name="questionFive" value="bear">Fight a bear in a bare bones boxing bananza??
           </label><br>
           <label>
             <input type="radio" name="questionFive" value="stubToe">Stub your toe on every door jamb and stair you step on/through?
           </label><br>
-
         <h3>Submit your form to get your result</h3>
         <button type="button">Submit</button>
       </form>
