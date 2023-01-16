@@ -18,7 +18,7 @@ window.addEventListener("load", function() {
     const questionFour = parseInt(document.getElementById("questionFour").value);
     const questionFive = parseInt(document.getElementById("questionFive").value);
 
-    const results = questionOne + questionTwo + questionThree + questionFour + questionFive
+    const results = questionOne + questionTwo + questionThree + questionFour + questionFive;
 
       if (results <=5 ) {
         document.getElementById("python").removeAttribute("class", "hidden");
@@ -26,7 +26,7 @@ window.addEventListener("load", function() {
         document.getElementById("javascript").removeAttribute("class", "hidden");
       } else if (results <=9) {
         document.getElementById("swift").removeAttribute("class", "hidden");
-      } else {
+      } else { void(0);
       }
     });
   });

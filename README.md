@@ -23,8 +23,7 @@ _This is a website application that is supposed to suggest a programming languag
 
 ## Known Bugs
 
-* _removeAttrribute is still not removing the .hidden class from the corosponding divs_
-* _There are some indentation errors and potential typos_
+* _N/A_
 
 ## License
 
