@@ -2,6 +2,58 @@
   display: none;
 }
 
+body {
+  padding-left: 30px;
+  background-color: rgb(155, 248, 248);
+}
+
+.intro {
+  text-transform: capitalize;
+  text-align: start;
+  font-weight: 800;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+#userForm {
+  display: flex;
+  flex-direction: column;
+  margin: 50px;
+  flex-wrap: wrap;
+}
+#submit {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.container {
+  font-family: sans-serif;
+  padding: 10px;
+  font-size: large;
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin: 5px;
+}
+
 #python {
-  color: green;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 900;
+  
+}
+#javascript {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 900;
+
+}
+#swift {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 900;
+
 }

@@ -22,10 +22,11 @@ window.addEventListener("load", function() {
 
       if (results <=5 ) {
         document.getElementById("python").removeAttribute("class", "hidden");
-      } else if (results >= 6) {
+      } else if (results <=7) {
         document.getElementById("javascript").removeAttribute("class", "hidden");
+      } else if (results <=9) {
+        document.getElementById("swift").removeAttribute("class", "hidden");
       } else {
-        
       }
     });
   });
