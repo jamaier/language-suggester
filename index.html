@@ -16,59 +16,50 @@
       </p>
     </div>
     
-      <div class="userInput">
-        <form id="radioForm">
-          <div class="container">
-          <h5>would you rather work with big data or build interactive websites</h5><br>
-          <label class="radio">
-            <input type="radio" name="questionOne" value="data">Data
-          </label><br>
-          <label>
-            <input type="radio" name="questionOne" value="websites">Build Websites
-          </label><br>
-        </div>
-        
-        <div class="container">
-          <h5>Would you prefer to work on projects for Mobile or Desktop</h5><br>
-          <label class="radio">
-            <input type="radio" name="questionTwo" value="desktop">desktop
-          </label><br>
-          <label><br>
-            <input type="radio" name="questionTwo" value="mobile">mobile
-          </label><br>
-        </div>
-        
-        <div class="container">
+    <form id="userForm">
+      <div class="container-1">
+        <h5>would you rather work with big data or build interactive websites</h5><br>
+        <select id="questionOne">
+          <option value="1">Data</option>
+          <option value="2">Websites</option>
+        </select>
+      </div>
+      
+      <div class="container-2">
+        <h5>Would you prefer to work on projects for Mobile or Desktop</h5><br>
+        <select id="questionTwo">
+          <option value="1">Desktop</option>
+          <option value="2">Mobile</option>
+        </select>
+      </div>
+      
+      <div class="container-3">
         <h5>where would you like to work from?</h5><br>
-          <label class="radio">
-            <input type="radio" name="questionThree" value="office">Office
-          </label><br>
-          <label>
-            <input type="radio" name="questionThree" value="home">Home
-          </label><br>
-        </div>
- 
-        <div class="container">
+        <select id="questionThree">
+          <option value="1">The Office</option>
+          <option value="2">Home</option>
+        </select>
+      </div>
+
+      <div class="container-4">
         <h5>what makes you want to learn?</h5><br>
-          <label class="radio">
-            <input type="radio" name="questionFour" value="career">Change of career
-          </label><br>
-          <label>
-            <input type="radio" name="questionFour" value="forFun">Just for fun!
-          </label><br>
-        </div>
-        <div class="container">
+        <select id="questionFour">
+          <option value="1">Change of career</option>
+          <option value="2">Just because!</option>
+        </select>
+      </div>
+      <div class="container-5">
         <h5>Just curious: would you rather...</h5><br>
-          <label class="radio">
-            <input type="radio" name="questionFive" value="bear">Fight a bear in a bare bones boxing bananza??
-          </label><br>
-          <label>
-            <input type="radio" name="questionFive" value="stubToe">Stub your toe on every door jamb and stair you step on/through?
-          </label><br>
+        <select id="questionFive">
+          <option value="1">Fight a bear in a bare bones boxing bananza??</option>
+          <option value="2">Stub your toe on every door jamb and stair you step on/through?</option>
+        </select>
+      </div>
+      <div>
         <h3>Submit your form to get your result</h3>
-        <button type="button">Submit</button>
-      </form>
-    </div>
+        <button type="submit">Submit</button>
+      </div>
+    </form>
     
     <div id="python" class="hidden">
       <p>Python would be a solid choice!</p>
@@ -79,7 +70,7 @@
     </div>
     
     <div id="swift" class="hidden">
-      <p>Swift is right up you alley!</p>
+      <p>Swift may be right up you alley!</p>
     </div>
     
     <div id="reasonWhy" class="hidden">
